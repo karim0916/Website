@@ -1,0 +1,159 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;  
+
+    background: linear-gradient(#01000b, #08053d);
+    box-sizing:border-box;
+
+}
+
+
+
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+
+.inputs1 {
+    font-family:"Outfit";
+}
+
+::placeholder {
+    font-family:"Outfit";
+   
+  }
+.call {
+    height:100vh;
+    flex-direction: column;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.lift {
+    display:flex;
+    flex-direction:column;
+    align-items: start;
+    gap:20px;
+    position: absolute;
+    top:240px;
+    left:920px;
+    z-index:1;
+    box-sizing:border-box;
+}
+
+
+.title h2 {
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-left:35px;
+    position:absolute; 
+    bottom:750px; 
+   width:100%;
+    z-index:3;
+    font-family:"Outfit";
+    box-sizing:border-box;
+
+    
+} 
+
+.success {
+    padding:5px 10px; 
+    font-family:"Outfit";
+    text-align:center; 
+    color: #326b07; 
+    border-radius: 3px; 
+    font-synthesis:14px;
+    margin-top:230px;
+    margin-left:120px;
+    z-index:3;
+}
+
+
+.title hr { 
+    border: none; 
+    width: 80px; 
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    position:absolute; 
+    bottom:725px; 
+    margin-left:100px;
+    box-sizing:border-box;
+
+
+
+    z-index:1;
+}
+
+
+.inputs {
+    width:300px; 
+    height:40px; 
+    border:none; 
+    outline:none; 
+    padding-left:15px; 
+    font-weight:500; 
+    color:grey; 
+    border-radius:50px; 
+    position: relative; 
+    bottom:-15px; 
+    left:-150px;
+    box-sizing:border-box;
+    
+
+   
+   
+}
+
+
+
+.lift textarea {
+    height:50px; 
+    padding-top:15px; 
+    border-radius:20px; 
+    height:auto;
+}
+
+
+    
+.inputs:focus {
+    border:2px solid rgb(10, 25, 233);
+}
+
+
+
+
+
+#state {
+    width:300px; 
+    height:50px; 
+    border:none; 
+    outline:none; 
+    padding-left:15px; 
+    font-weight:500; 
+    color:grey; 
+    border-radius:50px;
+    font-family:"Outfit";
+
+}
+#stop {
+    position:relative;
+}
+.textarea {
+    position:absolute;
+    padding-left:15px;
+    top:-420px; 
+left: 160px;
+font-family:"Outfit";
+}

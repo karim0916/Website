@@ -1,0 +1,1093 @@
+/*  Name: Karim Mohamed 
+     Date: 05/06/24 
+     Section: CSC125 
+     Title: Final Project */
+
+     html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      overflow-x: hidden;  
+      background: linear-gradient(#01000b,   #08053d);
+      box-sizing:border-box;
+
+  }
+  
+
+
+  * {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+
+
+  }
+  img {
+     float: left; 
+     position:absolute;
+      bottom:145px;
+     height:auto; 
+     z-index:1;
+     box-sizing:border-box;
+
+    }
+   
+      
+       li a {
+        display: block;
+        font-family:"Poppins";
+        font-weight:700; 
+        padding: 8px 16px;
+        text-decoration: none;
+        text-align: center;
+      }
+      
+      li b {
+        position:fixed;
+        top:25px;
+        display: block;
+        padding: 8px 16px;
+        text-decoration: none; 
+        text-align: center; 
+        background: linear-gradient(45deg,   #6647ef, #33ccff);
+        border-radius:50px;
+        color:darkblue;
+        width:100%;
+
+      }
+
+      
+  
+      
+      
+     
+      li a:hover {
+        color: #d0ced1;
+      }
+  
+      .white {
+        color:white;
+      }
+
+       
+  
+     ul {
+      list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 150px;
+        color: white;  
+        font-family:"Poppins";
+        font-weight:700; 
+
+        
+       
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+  
+  
+      ol {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 150px;
+        color:white; 
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        
+  
+      }
+
+     
+   
+
+   
+
+    
+  
+    
+   
+  
+    .register-now a:hover {
+        color: rgb(234, 230, 233);
+     
+  }
+  
+   
+  
+    .square3 { 
+      width:1500px; 
+      height:100px;
+     margin-top:200px;  
+  overflow-y: hidden; 
+      overflow-x: hidden;  
+      background-color: rgba(243, 242, 242, 0.127);
+        padding:70px;
+    }
+  
+   
+  
+  
+  
+      
+  
+      .links {
+        position:fixed; 
+        margin-top:29px; 
+        margin-left: 320px;
+        left:220px;
+        color:white;
+      height:auto; 
+      overflow-y: hidden; 
+      overflow-x: hidden;  
+      z-index:3; 
+      font-family:'Kanit';
+      font-weight: 700;
+      font-style: normal;
+      box-sizing:border-box;
+      background: linear-gradient(45deg,   #6647ef, #33ccff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+  
+      }
+  
+      .links50 {
+        position:fixed; 
+        margin-top:29px; 
+        margin-left: 520px;
+        color:white;
+      height:auto; 
+      overflow-y: hidden; 
+      overflow-x: hidden;  
+      z-index:3;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      }
+  
+      .linkss {
+        position:fixed; 
+        margin-top:-20px; 
+        left:520px;
+        color:white;
+      height:auto; 
+      overflow-y: hidden; 
+      overflow-x: hidden;  
+      z-index:3;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      background: linear-gradient(45deg,   #6647ef, #33ccff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+  
+      }
+  
+  #logo { 
+    position:relative;  
+  }  
+
+  .logo66 { 
+    position:fixed;  
+    width: 400px; 
+    top:-140px; 
+   left:-100px;
+  
+z-index:2;   
+  }  
+
+  ::placeholder {
+    font-family:"Outfit";
+  }
+  .logo6664 {
+    position:fixed;  
+    width: 400px; 
+    top:-60px; 
+    left:-60px;
+  
+z-index:3;   
+  }
+  
+  .left { 
+    position:relative;
+    top:115px;
+  margin-left:0px;
+   
+    width:1580px; 
+    height:1000px;
+  z-index:1;
+        
+  
+  } 
+  
+  .left1 { 
+    position:relative;
+    width:550px;
+    height:600px;
+    top:1000px; 
+    right:260px;
+  z-index:0;
+        
+  
+  } 
+  
+  
+  
+  
+  .icon {  
+    width: 700px; 
+    height: 800px;
+    left:50px;
+    top:700px; 
+    margin-bottom:5px;
+  
+        margin-top:80px; 
+        margin-left: -10x;
+        z-index:0;
+  
+  }
+  
+  .icon2 {  
+    width: 400px; 
+    left:100px;
+    bottom:-380px; 
+  
+        margin-top:50px; 
+        margin-left: 50x;
+        z-index:0;
+  
+  }
+
+  .careers {
+    width:2000px;
+    height:auto;
+    
+  }
+ 
+  #careers1{ 
+    position:absolute;
+    top:800px;
+  }
+  
+  .icon3 {  
+    width: 110px; 
+    left:480px;
+    bottom: 40px; 
+  
+        margin-top:80px; 
+        margin-left: -20px;
+        z-index:0;
+  
+  }
+  
+  .icon4 {  
+    width: 110px; 
+    left:480px;
+    bottom: -250px; 
+  
+        margin-top:80px; 
+        margin-left: -20px;
+        z-index:0;
+  
+  }
+  
+  .hardware {  
+    width: 120px; 
+    left:850px;
+    bottom: 40px; 
+  
+        margin-top:80px; 
+        margin-left: -20px;
+        z-index:0;
+  
+  }
+  
+  .lock {  
+    width: 100px; 
+    left:1200px;
+    bottom: 50px; 
+  
+        margin-top:80px; 
+        margin-left: -20px;
+        z-index:0;
+  
+  }
+  
+  /* about us link */
+      .about-us {
+        position:fixed;
+        margin-top:29px; 
+        margin-left: 400px;
+      height:auto;  
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      background: linear-gradient(45deg,   #6647ef, #33ccff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+
+      
+      
+  
+     
+      z-index:3;
+  
+      }
+  
+      .about-us1 {
+        position:fixed;
+        margin-top:-20px; 
+        margin-left: 370px;
+      height:auto; 
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      background: linear-gradient(45deg,   #6647ef, #33ccff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+
+      
+  
+     
+      z-index:3;
+  
+      }
+  
+      .links2 {
+        position:fixed; 
+        margin-top:29px; 
+        left:700px;
+      height:auto; 
+      overflow-y: hidden; 
+      overflow-x: hidden;  
+      z-index:3;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      background: linear-gradient(45deg,   #6647ef, #33ccff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+
+      
+      }
+
+      .links200 {
+        position:fixed; 
+        margin-top:-20px; 
+        left:670px;
+      height:auto; 
+      overflow-y: hidden; 
+      overflow-x: hidden;  
+      z-index:3;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      background: linear-gradient(45deg,   #6647ef, #33ccff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+      
+      }
+  
+      .links100 {
+        position:fixed; 
+        margin-top:29.5px; 
+        margin-left: 660px;
+      height:auto; 
+      overflow-y: hidden; 
+      overflow-x: hidden;  
+      z-index:3;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      
+      }
+  /* navigation */
+      .square {
+        position:fixed; 
+        top:0px;
+        
+    width:1800px;
+        overflow-y: hidden; 
+        overflow-x: hidden;  
+        background: linear-gradient(#01000b, #08053d); 
+        padding:70px;
+          z-index:2;
+        }
+  
+  .alert {
+   color: rgb(222, 219, 219);
+    z-index:2;
+    display:flex; 
+    align-items: center; 
+    padding:5px;  
+    font-size:16px; 
+    color:white; 
+    gap:10px; 
+    border:none; 
+    background-image: linear-gradient(to right, #2560df, #08042a); /* Gradient */
+    cursor:pointer;
+    width:180px;
+    height:40px;
+    border-radius:5px; 
+position:relative; 
+left:980px;
+top:770px;
+    justify-content:center;
+    font-family:"Outfit";
+    font-weight:700;
+    box-sizing:border-box;
+
+
+    
+  
+  
+  
+
+
+}
+
+h3 {
+  font-family:"Poppins, sans-serif";
+}
+
+.alert:hover {
+  background: linear-gradient(#2560df, #020012);
+}
+
+
+  
+  
+  
+
+  
+  
+      
+      .links3 {
+        position:fixed; 
+        margin-top:29px; 
+        left:880px;
+      height:auto; 
+      overflow-y: hidden; 
+      overflow-x: hidden;
+      z-index:3;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        background: linear-gradient(45deg,   #6647ef, #33ccff);
+        -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+
+      }
+      
+    
+      
+  
+      .links300 {
+        position:fixed; 
+        margin-top:-20px; 
+        left:840px;
+      height:auto; 
+      overflow-y: hidden; 
+      overflow-x: hidden;
+      z-index:3;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      background: linear-gradient(45deg,   #6647ef, #33ccff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+    
+      }
+
+      .links3000 {
+        position:fixed; 
+        margin-top:30px; 
+        margin-left: 820px;
+      height:auto; 
+      overflow-y: hidden; 
+      overflow-x: hidden;
+      z-index:3;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    
+      }
+  
+      
+  
+      .links4 {
+        position:fixed; 
+        margin-top:29px; 
+        margin-left: 870px;
+      height:auto; 
+      overflow-y: hidden; 
+      overflow-x: hidden;  
+      z-index:3;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      background: linear-gradient(45deg,   #6647ef, #33ccff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+
+  
+      }
+
+      .links400 {
+        position:fixed; 
+        margin-top:-20px; 
+        margin-left: 870px;
+      height:auto; 
+      overflow-y: hidden; 
+      overflow-x: hidden;  
+      z-index:3;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+  
+      }
+    
+  
+      
+        .im {
+         left:1000px;
+          width:1250px;
+          height:650px;
+        }
+     
+  
+      #overview {
+        position:relative; 
+        bottom:700px;
+        left: 950px;
+        
+  
+  
+  
+  
+      } 
+      .style {
+        font-family:"Outfit";
+        font-size: 50px;
+
+      }
+      
+  
+  
+
+  #rreason {
+    position: relative;
+    bottom: 765px;
+    left: 840px;
+    
+  }
+  .square4 { 
+    width:2000px; 
+    height:750px;
+   margin-top:300px;  
+  overflow-y: hidden; 
+    overflow-x: hidden;  
+    background-color: #03021a;
+  
+      padding:70px;
+    
+  }
+  
+  
+  
+  
+  
+   
+  
+  
+  .square5 {
+    position:relative; 
+    top:322px;
+    height:60px;
+    padding:70px; 
+    background-color:#04022e;
+  }
+  
+  
+  
+ 
+  
+  .LN {
+    position:relative; 
+    top:50px;
+    right:239px;
+  }
+  
+  .label {
+    color:white;
+  }
+  
+  
+  
+ 
+  
+  #last {
+    position:relative; 
+    top:50px;
+    right:240px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+  
+  }
+  
+
+  
+  #first {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+  
+  }
+  
+  .register-banner {
+    position:relative;
+    left:700px;
+   top:-50px;
+  width:10000px;
+  height:1160.8px;  
+  background: linear-gradient(#000000, #0c0280);
+  padding:70px;
+  z-index:1;
+  opacity:.5;
+  box-sizing:border-box;
+
+  }
+  
+
+  
+  
+  
+  
+ 
+  
+  
+  
+  .registration {
+    position:relative; 
+    bottom:1700px;
+    text-align:center;
+    left:340px;
+    text-decoration-line: underline;
+  }
+  
+  
+  
+  
+  .line {
+    position:relative; 
+    top:715px;
+    left:385px;
+    z-index:1;
+  }
+  
+  .line2 {
+    position:relative; 
+    top:680px;
+    left:308px;
+    z-index:1;
+  }
+  
+  
+  
+  
+  
+  #money {
+    position:relative; 
+    left:50px;
+  }
+  
+  #money1 {
+    position:relative; 
+    left:50px;
+    background-color:#030117;
+  }
+  #text-box {
+    position:relative;
+  top: 500px;
+    width:200px;
+    height:200px;
+    background-color:#efeff2;
+  
+  }
+  
+  #box1 {
+    position:relative; 
+    bottom:1515px;
+    left:1200px;
+    width:200px;
+    height:200px;
+    background-color:#03021a;
+  
+  }
+  
+  
+  #box2 {
+    position:relative; 
+    top:1400x;
+    left:1200px;
+    width:200px;
+    height:200px;
+    background-color:#03021a;
+  
+  }
+  
+  
+  #box3 {
+    position:relative; 
+    bottom:100x;
+    left:1200px;
+    width:200px;
+    height:200px;
+    background-color:#03021a;
+  
+  }
+  #move-down{
+  position:relative; 
+  bottom:-80px;  
+  left:-5px;
+  text-align:center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  
+  }
+  #box-label {
+    position:relative;
+    top:120px;
+    left:130px;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  #banner {
+    padding:70px;
+    background-color:#04012c;
+    position:relative; 
+    top:80px;
+  }
+  
+  
+  
+  .about-us-banner {
+      padding: 70px;
+      background-color:#03011d;
+      width: 500px; 
+      height: 700px; 
+     margin-left:auto; 
+     margin-right:auto; 
+  }
+    
+
+  
+ 
+  
+  
+  
+  .about-us-paragraph {
+    position:relative; 
+    bottom:660px;
+    right:-430px;
+    text-align: center;
+    font-size:15px;
+    color:rgb(175, 174, 174);
+    font-family: "Poppins, sans-serif";
+    
+    width:40%; 
+    line-height:2;
+  
+  }
+  
+  .information {
+  left:600px;
+   bottom:-250px; 
+    width:200px;
+    height:210px;
+    z-index:1;
+  }
+  
+  .information2 {
+    left:550px;
+      bottom:100px;
+      width:300px;
+      height:210px;
+      z-index:1;
+    }
+  
+  
+  .abo {
+    position:relative;
+    top:50px;
+    padding:70px;
+    background-color:rgb(17, 5, 105);
+  }
+  
+  .about-us-name {
+    position:relative;
+    left:650px;
+   bottom:100px;
+  }
+  
+  .Software-Header {
+    position:relative; 
+    text-align: center;
+    margin-top:1000px; 
+    font-family:"Poppins, san-serif";
+    font-size:30px;
+    transform: translateX(-50%);
+    bottom:800px; 
+    left:730px;
+
+
+
+  
+  }
+
+  #software-headerrr {
+    position:absolute;
+
+  }
+  
+  .Software-paragraph {
+    position:relative; 
+    bottom:220px;
+    left:50px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size:19px;
+  
+  }
+  
+  .Software-paragraph1 {
+    position:relative; 
+    bottom:220px;
+    left:50px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size:15px; 
+    width:50%;
+    line-height:1.5;
+    color:#9b9b9c
+  
+  }
+  
+  
+  .software-banner {
+    position:relative;
+    bottom:300px;
+    background-color:#c2c2c3;
+    width: 400px;
+    height: 500px;
+   margin-left:auto;
+   margin-right:auto;
+  }
+  
+  #software-pictureee {
+    position:relative;
+    
+  }
+
+
+  .software-picture {
+    position:absolute;
+    top:260px;
+    left:700px;
+    transform: translateX(-50%);
+
+     width:600px;
+      height:350px;
+    
+  }
+  
+  .Software-paragraph2 {
+    position:relative; 
+    bottom:190px;
+    left:50px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size:19px;
+  
+  }
+  
+  
+  .Software-paragraph3 {
+    position:relative; 
+    bottom:190px;
+    left:50px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size:15px; 
+    width:50%;
+    line-height:1.5;
+    color:#9b9b9c;
+  
+  }
+  
+  
+  .Software-paragraph4 {
+    position:relative; 
+    bottom:150px;
+    left:50px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size:19px; 
+    width:50%;
+    line-height:1.5;
+    color:#f3f3f6
+  
+  }
+  
+  .Software-paragraph5 {
+    position:relative; 
+    bottom: 150px;
+    left:50px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size:15px; 
+    width:50%;
+    line-height:1.5;
+    color:#9b9b9c;
+  
+  }
+  
+  
+  .Software-paragraph6 {
+    position:relative; 
+    bottom: 140px;
+    left:50px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size:19px; 
+    width:50%;
+    line-height:1.5;
+    color:#f5f5f7;
+  
+  }
+  
+  footer {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(17, 5, 105);
+    color: white;
+    visibility: hidden;
+  }
+
+
+.newheader h1 {
+  margin-top:300px;
+  margin-left:180px;
+  font-family:"Poppins"; 
+  font-weight:900; 
+  background: linear-gradient(45deg, #5833ff, #33ccff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    
+  
+  
+
+  font-size:60px; 
+  width:150%;
+}
+
+
+
+
+  h1 {
+    color:white;
+    font-family: "Poppins, sans-serif" /* Selector that changes color to white and all fonts to Verdana. This only applies for h1 headers.  -KM */
+   
+  }
+
+  .header-container {
+    position: absolute;
+    top: 380px; /* Adjust this value as needed to position vertically */
+    left: 710px; /* Adjust this value as needed to position horizontally */
+    transform: translate(-50%, -50%);
+    text-align: center; /* Align content in the center */
+  }
+  
+  .newheader {
+    margin-bottom: 200px; /* Add space between title and link */
+  }
+  
+  #home-register-now {
+   
+    margin-top: 20px; /* Add space between link and title */  
+   
+   
+  } 
+
+ .yes hr {
+    
+    border: none;
+    height: 3px; 
+    background-image: linear-gradient(45deg, #6647ef, #33ccff); 
+    width:100px;
+    position:relative; 
+    bottom:700px; 
+    left:660px; 
+    border-radius: 10px;
+  }
+  
+  .overview1 {
+    background: linear-gradient(45deg, #5833ff, #33ccff, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:"outfit";
+    margin-bottom:700px;
+    margin-top:450px;
+   position:relative; 
+   bottom:0px;
+   font-size:50px;
+
+    margin-left:600px;
+  
+  }
+ 
+#main-container {
+  position:relative;
+}
+  .go-down {
+    position:absolute;
+    bottom:-900px;
+    left:50px;
+    width:600px;
+    height:530px;
+    border-radius: 10px; 
+  }
+
+  
+
+  .reason {
+    color:white;
+    font-family: "Outfit"; 
+    width:50%; 
+ margin-left:550px; 
+ margin-top:50px; 
+ position:absolute; 
+ bottom:530px; 
+margin-left:700px;
+ line-height:1.5;
+ width:40%; 
+ text-align:center;
+
+  }
+
+  #reasonmove {
+    position:relative;
+  }
